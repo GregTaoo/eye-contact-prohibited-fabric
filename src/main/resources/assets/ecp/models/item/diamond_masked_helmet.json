@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ecp:item/diamond_masked_helmet"
+  }
+}

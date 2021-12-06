@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ecp:item/leather_masked_helmet",
+    "layer1": "ecp:item/leather_masked_helmet_overlay"
+  }
+}

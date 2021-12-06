@@ -1,0 +1,13 @@
+{
+  "item.ecp.chain_masked_helmet": "Masked Chain Helmet",
+  "item.ecp.diamond_masked_helmet": "Masked Diamond Helmet",
+  "item.ecp.golden_masked_helmet": "Masked Golden Helmet",
+  "item.ecp.iron_masked_helmet": "Masked Iron Helmet",
+  "item.ecp.leather_masked_helmet": "Masked Leather Cap",
+  "item.ecp.netherite_masked_helmet": "Masked Netherite Helmet",
+  "item.ecp.turtle_masked_helmet": "Masked Turtle Shell",
+
+  "tooltip.ecp.masked_armor": "An opaque-tinted mask is attached to the {0}, making the enderman unaware that he is being observed.",
+  "types.ecp.helmet": "helmet",
+  "types.ecp.cap": "cap"
+}

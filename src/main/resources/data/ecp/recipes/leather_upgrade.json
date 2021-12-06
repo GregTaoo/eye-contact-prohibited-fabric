@@ -1,0 +1,16 @@
+{
+  "group": "ecp",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:leather_helmet"
+    },
+    {
+      "item": "minecraft:tinted_glass"
+    }
+  ],
+  "result": {
+    "item": "ecp:leather_masked_helmet",
+    "count": 1
+  }
+}
