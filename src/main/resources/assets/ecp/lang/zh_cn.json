@@ -7,7 +7,8 @@
   "item.ecp.netherite_masked_helmet": "遮罩下界合金头盔",
   "item.ecp.turtle_masked_helmet": "遮罩海龟壳",
 
-  "tooltip.ecp.masked_armor": "佩戴这顶附带遮光玻璃面罩的{0}能使你安全地与末影人对视。",
+  "tooltip.ecp.masked_armor1": "佩戴这顶附带遮光玻璃面罩的{0}，",
+  "tooltip.ecp.masked_armor2": "能使你安全地与末影人对视。",
   "types.ecp.helmet": "头盔",
   "types.ecp.cap": "帽子"
 }

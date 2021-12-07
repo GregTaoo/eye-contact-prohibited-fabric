@@ -7,7 +7,8 @@
   "item.ecp.netherite_masked_helmet": "Masked Netherite Helmet",
   "item.ecp.turtle_masked_helmet": "Masked Turtle Shell",
 
-  "tooltip.ecp.masked_armor": "An opaque-tinted mask is attached to the {0}, making the enderman unaware that he is being observed.",
+  "tooltip.ecp.masked_armor1": "An opaque-tinted mask is attached to the {0}, ",
+  "tooltip.ecp.masked_armor2": "making endermans to unaware of being observed.",
   "types.ecp.helmet": "helmet",
   "types.ecp.cap": "cap"
 }

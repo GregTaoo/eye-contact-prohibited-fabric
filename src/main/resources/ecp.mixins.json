@@ -4,9 +4,10 @@
   "package": "com.teamfractal.ecp.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "MaskedHelmetsMixin",
+    "PiglinLoveGoldMixin"
   ],
   "client": [
-    "ecpMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -2,7 +2,6 @@ package com.teamfractal.ecp;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.item.ArmorMaterials;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
@@ -15,13 +14,13 @@ public class ecp implements ModInitializer {
 
 	public static final Logger LOGGER = LogManager.getLogger("ecp");
 
-	public static Item leatherMaskedHelmet = new DyeableMaskedCapItem(ArmorMaterials.LEATHER, EquipmentSlot.HEAD, new Item.Settings().maxCount(1).group(ItemGroup.COMBAT));
-	public static Item chainMaskedHelmet = new MaskedHelmetItem(ArmorMaterials.CHAIN, EquipmentSlot.HEAD, new Item.Settings().maxCount(1).group(ItemGroup.COMBAT));
-	public static Item ironMaskedHelmet = new MaskedHelmetItem(ArmorMaterials.IRON, EquipmentSlot.HEAD, new Item.Settings().maxCount(1).group(ItemGroup.COMBAT));
-	public static Item goldMaskedHelmet = new MaskedHelmetItem(ArmorMaterials.GOLD, EquipmentSlot.HEAD, new Item.Settings().maxCount(1).group(ItemGroup.COMBAT));
-	public static Item diamondMaskedHelmet = new MaskedHelmetItem(ArmorMaterials.DIAMOND, EquipmentSlot.HEAD, new Item.Settings().maxCount(1).group(ItemGroup.COMBAT));
-	public static Item turtleMaskedHelmet = new MaskedHelmetItem(ArmorMaterials.TURTLE, EquipmentSlot.HEAD, new Item.Settings().maxCount(1).group(ItemGroup.COMBAT));
-	public static Item netheriteMaskedHelmet = new MaskedHelmetItem(ArmorMaterials.NETHERITE, EquipmentSlot.HEAD, new Item.Settings().maxCount(1).group(ItemGroup.COMBAT));
+	public static Item leatherMaskedHelmet = new DyeableMaskedCapItem(EcpArmorMaterials.LEATHER, EquipmentSlot.HEAD, new Item.Settings().maxCount(1).group(ItemGroup.COMBAT));
+	public static Item chainMaskedHelmet = new MaskedHelmetItem(EcpArmorMaterials.CHAIN, EquipmentSlot.HEAD, new Item.Settings().maxCount(1).group(ItemGroup.COMBAT));
+	public static Item ironMaskedHelmet = new MaskedHelmetItem(EcpArmorMaterials.IRON, EquipmentSlot.HEAD, new Item.Settings().maxCount(1).group(ItemGroup.COMBAT));
+	public static Item goldMaskedHelmet = new MaskedHelmetItem(EcpArmorMaterials.GOLD, EquipmentSlot.HEAD, new Item.Settings().maxCount(1).group(ItemGroup.COMBAT));
+	public static Item diamondMaskedHelmet = new MaskedHelmetItem(EcpArmorMaterials.DIAMOND, EquipmentSlot.HEAD, new Item.Settings().maxCount(1).group(ItemGroup.COMBAT));
+	public static Item turtleMaskedHelmet = new MaskedHelmetItem(EcpArmorMaterials.TURTLE, EquipmentSlot.HEAD, new Item.Settings().maxCount(1).group(ItemGroup.COMBAT));
+	public static Item netheriteMaskedHelmet = new MaskedHelmetItem(EcpArmorMaterials.NETHERITE, EquipmentSlot.HEAD, new Item.Settings().maxCount(1).group(ItemGroup.COMBAT));
 
 	@Override
 	public void onInitialize() {
